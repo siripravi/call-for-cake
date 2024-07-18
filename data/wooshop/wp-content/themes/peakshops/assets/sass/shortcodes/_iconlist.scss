@@ -1,0 +1,31 @@
+/* Iconlist */
+.thb-iconlist {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      position: relative;
+      padding-left: 30px;
+      margin: 0 0 10px;
+      .fa,
+      .fas {
+        position: absolute;
+        top: 4px;
+        left: 0;
+        font-weight: 400;
+      }
+			.rtl & {
+				padding-left: 0;
+				padding-right: 30px;
+
+				.fa,
+        .fas {
+					left: auto;
+					right: 0;
+				}
+			}
+    }
+  }
+}

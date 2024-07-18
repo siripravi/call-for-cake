@@ -1,0 +1,136 @@
+/* Video Lightbox */
+.thb-video-lightbox {
+	position: relative;
+	overflow: hidden;
+
+	@extend .general-shadow-styles;
+
+	&.inline {
+		svg {
+			width: 36px;
+			height: 36px;
+		}
+	}
+	&.large {
+		svg {
+			width: 96px;
+			height: 96px;
+		}
+	}
+	&.xlarge {
+		svg {
+			width: 128px;
+			height: 128px;
+		}
+	}
+	&.lightbox-style1 {
+		display: inline-block;
+		line-height: 0;
+	}
+	&.lightbox-style2 {
+		svg {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			z-index: 5;
+			@include translate3d(-50%, -50%, 0);
+		}
+	}
+	&.lightbox-style3 {
+		svg {
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		.thb-video-text {
+			display: inline-block;
+			vertical-align: middle;
+			margin-left: 25px;
+			font-size: 16px;
+			font-weight: 600;
+
+			.rtl & {
+				margin-left: 0;
+				margin-right: 25px;
+			}
+		}
+	}
+	&.hover-style1 {
+		img {
+			will-change:scale;
+			@extend .transition;
+		}
+		&:hover {
+			img {
+				@include scale(1.05);
+			}
+		}
+	}
+	&.hover-style2 {
+		background: $black;
+		img {
+			will-change: opacity;
+			@extend .transition;
+		}
+		&:hover {
+			img {
+				opacity: 0.9;
+			}
+		}
+	}
+
+	.thb-video-link {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 10;
+	}
+	svg {
+		@include backface-visibility(hidden);
+		@include translateZ(0);
+		.back,
+		.front {
+			will-change: transform;
+			@extend .mid-transition;
+		}
+		.back {
+			@include translateX(-100%);
+		}
+		.pause {
+			display: none;
+		}
+		&.thb-play-02 {
+
+			.circle1 {
+				fill: none;
+				stroke-width: 2;
+				stroke-miterlimit: 10;
+				opacity: 0.5;
+				stroke: #000;
+			}
+			.circle2 {
+				fill: none;
+		    stroke-width: 2;
+		    stroke-miterlimit: 10;
+		    opacity: 1;
+		    stroke-dasharray: 239;
+		    stroke-dashoffset: 239;
+		    stroke: #000;
+		    @extend .transition;
+			}
+		}
+	}
+	&:hover {
+		.back {
+			@include translateX(0%);
+		}
+		.front {
+			@include translateX(100%);
+		}
+		svg.thb-play-02 .circle2 {
+			stroke-dashoffset: 0;
+		}
+	}
+}

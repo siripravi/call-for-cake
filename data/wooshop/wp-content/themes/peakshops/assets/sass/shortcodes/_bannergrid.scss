@@ -1,0 +1,145 @@
+.thb-bannergrid {
+  .thb-bannergrid-parent-row {
+    height: 100%;
+    >.columns {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      @include min-break($break-small) {
+        flex: 1;
+      }
+      >.thb-banner {
+        flex: 1;
+        overflow: hidden;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .thb-banner-inner-row {
+    >.columns {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      @include min-break($break-small) {
+        flex: 1;
+      }
+      >.thb-banner {
+        flex: 1;
+        overflow: hidden;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .thb-inner-buttons {
+    margin-top: 25px;
+  }
+  &.thb-bannergrid-spacing-10 {
+    .thb-bannergrid-parent-row {
+      margin: 0 -5px;
+
+      >.columns {
+        padding: 0 5px;
+
+        .thb-banner {
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .thb-banner-inner-row {
+      margin: 0 -5px;
+
+      >.columns {
+        padding: 0 5px;
+
+        .thb-banner {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+  &.thb-bannergrid-spacing-2 {
+    .thb-bannergrid-parent-row {
+      margin: 0 -1px;
+
+      >.columns {
+        padding: 0 1px;
+
+        .thb-banner {
+          margin-bottom: 2px;
+        }
+      }
+    }
+    .thb-banner-inner-row {
+      margin: 0 -1px;
+
+      >.columns {
+        padding: 0 1px;
+
+        .thb-banner {
+          margin-bottom: 2px;
+        }
+      }
+    }
+  }
+  .thb-banner {
+    position: relative;
+    display: flex;
+    .thb-banner-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      pointer-events: none;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .thb-banner-content {
+      position: relative;
+      z-index: 10;
+      padding: 30px;
+      @include min-break($break-medium) {
+        padding: 40px;
+      }
+    }
+    // Positions
+    &.text-left {
+      &.bottom {
+        align-items: flex-end;
+      }
+    }
+    &.text-center {
+      align-items: center;
+      justify-content: center;
+    }
+    &.text-right {
+      &.bottom {
+        align-items: flex-end;
+      }
+    }
+    // Colors
+    &.text-light {
+      .thb-banner-subtitle,
+      .thb-banner-title,
+      .thb-banner-text {
+        color: #fff;
+      }
+    }
+  } // .thb-banner
+  &.thb-bannergrid-style6 {
+    .thb-banner-inner-row {
+      flex: 1;
+    }
+  }
+	&.thb-bannergrid-style2 {
+		.thb-banner .thb-banner-content {
+			@include min-break($break-medium) {
+        padding: 60px;
+      }
+		}
+	}
+}

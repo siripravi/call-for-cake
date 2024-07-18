@@ -1,0 +1,156 @@
+/* Tabs */
+.vc_tta-container {
+	.row {
+		box-sizing: border-box;
+	}
+}
+
+.thb-tabs {
+	@extend .transition;
+
+	.thb-tab-menu {
+		list-style: none;
+    margin: 0 0 30px;
+    padding: 0;
+    width: 100%;
+    font-size: 14px;
+		display: flex;
+		flex-direction: column;
+
+		@include min-break($break-small) {
+			flex-direction: row;
+		}
+	}
+
+	.vc_tta-panel {
+		display: none;
+
+		&.visible,
+		&:first-of-type {
+			display: block;
+		}
+		.vc_tta-panel-heading {
+			display: none;
+		}
+	}
+	&.style1,
+	&.style2 {
+		.thb-tab-menu {
+			display: flex;
+      flex-direction: column;
+      border-bottom: 1px solid $border;
+      margin-bottom: 40px;
+      @include min-break($break-small) {
+        flex-direction: row;
+      }
+		}
+		.vc_tta-panel-heading {
+			display: flex;
+			padding-right: 30px;
+			position: relative;
+			top: 1px;
+
+			.vc_tta-panel-title {
+				margin: 0;
+				font-size: 14px;
+				font-weight: 400;
+			}
+			a {
+				display: block;
+				padding: 0 0 8px;
+				line-height: 1;
+				font-weight: 500;
+				margin-bottom: 10px;
+				@include min-break($break-small) {
+					padding-bottom: 18px;
+					margin-bottom: 0;
+				}
+				&.active {
+					color: $accent;
+					@include box-shadow(inset 0 -3px 0 0 $accent);
+				}
+			}
+		}
+	} // End .style1
+	&.style2 {
+		.thb-tab-menu {
+			justify-content: center;
+    }
+	} // End .style2
+	&.style3 {
+    display: flex;
+    flex-direction: column;
+
+    @include min-break($break-medium) {
+      flex-direction: row;
+    }
+    .thb-tab-menu {
+      display: flex;
+      flex-direction: column;
+      padding-right: 30px;
+
+      @include min-break($break-medium) {
+        border-right: 1px solid $border;
+        width: 280px;
+        flex-shrink: 0;
+				margin: 0;
+      }
+      .vc_tta-panel-heading {
+        margin-bottom: 25px;
+        a {
+          display: block;
+          line-height: 1;
+          font-weight: 500;
+					&.active {
+	        	color: $accent;
+	        }
+        }
+
+      }
+    }
+    .vc_tta-panel-body {
+      width: 100%;
+      @include min-break($break-medium) {
+        padding-left: 30px;
+      }
+    }
+  }
+  &.style4 {
+    .thb-tab-menu {
+      display: flex;
+      flex-direction: column;
+      border-bottom: 1px solid $border;
+
+      @include min-break($break-small) {
+        flex-direction: row;
+      }
+      .vc_tta-panel-heading {
+        display: inline-flex;
+        position: relative;
+				margin-right: auto;
+        @include min-break($break-small) {
+          margin-right: 0;
+        }
+        a {
+          display: block;
+          padding: 17px 34px;
+					border-top: 2px solid transparent;
+          border-bottom: 1px solid transparent;
+          border-left: 1px solid transparent;
+          border-right: 1px solid transparent;
+          line-height: 1;
+          font-weight: 500;
+          height: calc(100% + 1px);
+
+					&.active {
+	          border-top-color: $accent;
+            color: $black;
+            border-bottom-color: #fff;
+            border-left: 1px solid $border;
+            border-right: 1px solid $border;
+	        }
+        }
+      }
+    }
+  } // .thb-product-tabs-style4
+}

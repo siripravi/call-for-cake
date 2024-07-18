@@ -1,0 +1,38 @@
+/* Menu Item */
+.thb-menu-item {
+	margin-bottom: 30px;
+	.thb-menu-item-parent {
+		display: flex;
+		line-height: 1;
+		margin-bottom: 15px;
+		.thb-menu-title {
+			padding-right: 10px;
+			h6 {
+				color: $accent;
+				font-size: 14px;
+				font-weight: 600;
+				margin: 0;
+				line-height: 1;
+			}
+			.rtl & {
+				padding-right: 0;
+				padding-left: 10px;
+			}
+		}
+		.thb-menu-line {
+			display: flex;
+			flex: 1;
+			border-bottom: 1px dotted $black;
+		}
+		.thb-menu-price {
+			color: $black;
+			font-size: 14px;
+			font-weight: 600;
+			padding-left: 10px;
+		}
+	}
+	.thb-menu-description {
+		font-size: 16px;
+		color: $black;
+	}
+}

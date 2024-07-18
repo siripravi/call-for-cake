@@ -1,0 +1,40 @@
+/* Cookie Bar */
+.thb-cookie-bar {
+  background: #fdd6c6;
+	border: none;
+	position: fixed;
+	text-align: left;
+	bottom: 15px;
+	left: 15px;
+	width: 270px;
+	max-width: 100%;
+	display: flex;
+  flex-direction: column;
+	margin: 0;
+	padding: 20px;
+	z-index: 9999;
+	overflow: hidden;
+	@include translateY(calc(100% + 30px));
+	font-weight: 400;
+	color: $black;
+	font-size: 12px;
+	@include min-break($break-small) {
+		padding: 25px;
+		bottom: 30px;
+		left: 30px;
+	}
+  p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .thb-cookie-text {
+    a {
+      font-weight: 400;
+      color: $black;
+      text-decoration: underline;
+    }
+  }
+  .btn {
+    border-color: $black;
+  }
+}

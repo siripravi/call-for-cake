@@ -1,0 +1,20 @@
+/* VC Gallery */
+.wpb_gallery {
+	.row {
+		.columns {
+			width: 100%;
+			overflow: hidden;
+		}
+		@extend .thb-padding-sizes;
+	}
+	a {
+		display: block;
+	}
+	img {
+		width: 100%;
+	}
+}
+/* Seperator */
+.vc_separator.wpb_content_element {
+	margin-bottom: 0;
+}

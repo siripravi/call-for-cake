@@ -1,0 +1,103 @@
+/* Typed */
+.thb-autotype {
+	.thb-autotype-entry {
+		display: inline;
+		color: $accent;
+		will-change: contents;
+	}
+	.typed-cursor {
+		font-weight: 400;
+		display: inline-block;
+	  @include animation(blink 0.7s infinite);
+	}
+	@keyframes blink{
+	    0% { opacity:1; }
+	    50% { opacity:0; }
+	    100% { opacity:1; }
+	}
+	@-webkit-keyframes blink{
+	    0% { opacity:1; }
+	    50% { opacity:0; }
+	    100% { opacity:1; }
+	}
+	@-moz-keyframes blink{
+	    0% { opacity:1; }
+	    50% { opacity:0; }
+	    100% { opacity:1; }
+	}
+}
+/* Fade Type */
+.thb-fadetype {
+	visibility: hidden;
+	perspective: 2000px;
+	.thb-fadetype-entry {
+		display: inline-block;
+		will-change: contents;
+		div {
+			transform-origin: 0 100%;
+			transform-style: preserve-3d;
+			will-change: opacity;
+		}
+	}
+}
+/* Gradient Type */
+.thb-gradienttype {
+	position: relative;
+	& * {
+		-moz-background-clip: text !important;
+    -o-background-clip: text !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+	}
+	&:not(.on-hover-true) * {
+		-moz-text-fill-color: transparent !important;
+    -o-text-fill-color: transparent !important;
+    -webkit-text-fill-color: transparent !important;
+    text-fill-color: transparent !important;
+	}
+	&.on-hover-true {
+		.thb-gradienttype-hover {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			z-index: 10;
+			opacity: 0;
+			@extend .mid-transition;
+
+			* {
+				-moz-text-fill-color: transparent !important;
+		    -o-text-fill-color: transparent !important;
+		    -webkit-text-fill-color: transparent !important;
+		    text-fill-color: transparent !important;
+			}
+		}
+
+		&:hover .thb-gradienttype-hover {
+			opacity: 1;
+		}
+	}
+}
+/* Slide Type */
+.thb-slidetype {
+	visibility: hidden;
+	@include translateZ(0);
+	.thb-slidetype-entry {
+		display: block;
+		will-change: contents;
+		overflow: hidden;
+		.lines {
+			display: block;
+		}
+	}
+}
+/* Stroke Type */
+.thb-stroketype {
+	* {
+	  color: $black;
+	  @include text-fill-color(transparent);
+	  @include text-stroke-width(1px);
+	  @include text-stroke-color($black);
+	}
+}
