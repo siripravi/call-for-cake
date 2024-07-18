@@ -6,7 +6,7 @@ require_once('wordpress/wp-load.php');
 
 // set environment
 require_once(dirname(__FILE__) . '/../protected/extensions/yii-environment/Environment.php');
-$env = new Environment();
+$env = new Environment("DEVELOPMENT");
 
 require_once(dirname(__FILE__) . '/../protected/components/WordpressRouter.php');
 $router = new WordpressRouter();

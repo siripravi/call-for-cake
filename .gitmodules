@@ -1,6 +1,3 @@
 [submodule "yii"]
 	path = yii
 	url = git://github.com/yiisoft/yii.git
-[submodule "data/wordpress"]
-	path = data/wordpress
-	url = https://github.com/WordPress/WordPress.git
