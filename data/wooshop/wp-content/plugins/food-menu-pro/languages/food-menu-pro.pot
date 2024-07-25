@@ -1,0 +1,1005 @@
+# Copyright (C) 2022 food-menu-pro
+# This file is distributed under the same license as the food-menu-pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: food-menu-pro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: RadiusTheme <support@radiustheme.com>\n"
+"Last-Translator: RadiusTheme <support@radiustheme.com>\n"
+"POT-Creation-Date: 2022-12-28 07:33+0000\n"
+"Project-Id-Version: undefined\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../app/Controllers/PostTypesController.php:92, ../app/Controllers/PostTypesController.php:93, ../app/Controllers/PostTypesController.php:101, ../app/Controllers/PostTypesController.php:102, ../app/Controllers/PostTypesController.php:103
+msgid "Variations"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:104
+msgid "All Variations"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:105, ../app/Controllers/PostTypesController.php:106, ../app/Controllers/Admin/Metabox/PostMeta.php:307
+msgid "Add Variation"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:107
+msgid "Edit Variation"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:108
+msgid "New Variation"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:109
+msgid "View Variation"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:110
+msgid "Search Variation"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:111
+msgid "No Variation found"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:112
+msgid "No Variation in the trash"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:144
+msgid "Tags"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:145
+msgid "Tag"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:146
+msgctxt "Admin menu name"
+msgid "Tags"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:147
+msgid "Search Tags"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:148
+msgid "All Tags"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:149
+msgid "Edit Tag"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:150
+msgid "Update Tag"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:151
+msgid "Add New Tag"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:152
+msgid "New Tag Name"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:153
+msgid "Popular Tags"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:154
+msgid "Separate Tags with commas"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:155
+msgid "Add or remove Tags"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:156
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:157
+msgid "No Tags found"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:177, ../app/Controllers/PostTypesController.php:179, ../app/Controllers/Hooks/FilterHooks.php:268
+msgid "Ingredients"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:178, ../app/Helpers/OptionsPro.php:82, ../app/Controllers/Admin/Metabox/PostMeta.php:292, ../templates/single/tabs/ingredient.php:17
+msgid "Ingredient"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:180
+msgid "Edit Ingredient"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:181
+msgid "Update Ingredient"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:182
+msgid "Add New Ingredient"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:183
+msgid "New Ingredient"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:184
+msgid "Parent Ingredient"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:185
+msgid "Parent Ingredient:"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:186
+msgid "All ingredients"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:187
+msgid "Search ingredients"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:188
+msgid "Popular ingredients"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:189
+msgid "Separate ingredients with commas"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:190
+msgid "Add or remove ingredients"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:191
+msgid "Choose from the most used  ingredients"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:192
+msgid "No ingredients found."
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:212, ../app/Controllers/PostTypesController.php:213, ../app/Controllers/PostTypesController.php:214, ../app/Helpers/OptionsPro.php:83, ../app/Controllers/Hooks/FilterHooks.php:279, ../app/Controllers/Admin/Metabox/PostMeta.php:295, ../templates/single/tabs/nutrition.php:17
+msgid "Nutrition"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:215
+msgid "Edit nutrition"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:216
+msgid "Update nutrition"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:217
+msgid "Add New nutrition"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:218
+msgid "New nutrition"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:219, ../app/Controllers/PostTypesController.php:220
+msgid "Parent nutrition"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:221
+msgid "All nutrition"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:222
+msgid "Search nutrition"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:223
+msgid "Popular nutrition"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:224
+msgid "Separate nutrition with commas"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:225
+msgid "Add or remove nutrition"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:226
+msgid "Choose from the most used  nutrition"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:227
+msgid "No nutrition found."
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:247, ../app/Controllers/PostTypesController.php:249
+msgid "Units"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:248
+msgid "Unit"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:250
+msgid "Edit unit"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:251
+msgid "Update unit"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:252
+msgid "Add New unit"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:253
+msgid "New unit"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:254, ../app/Controllers/PostTypesController.php:255
+msgid "Parent unit"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:256
+msgid "All units"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:257
+msgid "Search units"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:258
+msgid "Popular units"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:259
+msgid "Separate units with commas"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:260
+msgid "Add or remove units"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:261
+msgid "Choose from the most used units"
+msgstr ""
+
+#: ../app/Controllers/PostTypesController.php:262
+msgid "No unit found."
+msgstr ""
+
+#: ../app/Helpers/FnsPro.php:299
+msgid "Free!"
+msgstr ""
+
+#: ../app/Helpers/FnsPro.php:408
+msgid "Layout Default"
+msgstr ""
+
+#: ../app/Helpers/FnsPro.php:409
+msgid "Type 1"
+msgstr ""
+
+#: ../app/Helpers/FnsPro.php:410
+msgid "Type 2"
+msgstr ""
+
+#: ../app/Helpers/FnsPro.php:411
+msgid "Type 3"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:32
+msgid "Thousand Separator"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:39
+msgid "Decimal Separator"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:46
+msgid "Number of Decimals"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:66
+msgid "Secondary Color"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:79
+msgid "Short Description"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:80
+msgid "Taxonomy (Category , Tag)"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:81, ../app/Controllers/Hooks/FilterHooks.php:257, ../templates/single/tabs/description.php:15
+msgid "Description"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:84, ../app/Controllers/Admin/Metabox/PostMeta.php:140
+msgid "Reviews"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:96
+msgid "Plugin License"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:112
+msgid "Deactivate License"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:113
+msgid "Activate License"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:120
+msgid "Enter your license key"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:136
+msgid "Number of Slide Items"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:142
+msgid "Please enter the number of slide items to display."
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:145
+msgid "Slide Transition Speed"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:149
+msgid "Please enter the slide transition speed in milliseconds."
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:152
+msgid "Slider Settings"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:161
+msgid "Autoplay Timeout"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:165
+msgid "Please enter the autoplay timeout in milliseconds."
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:174
+msgid "Isotope Filter Style Type"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:178
+msgid "Please select the isotope filter style type."
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:182
+msgid "Isotope Filter (Default Selected Item)"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:185, ../app/Helpers/OptionsPro.php:204
+msgid "Show All"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:187
+msgid "Please select the default selected filter term (Selected item)."
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:194
+msgid "Disable"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:197, ../app/Helpers/OptionsPro.php:205
+msgid "Switch on to display show all button."
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:213
+msgid "Switch on to enable search filter."
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:227, ../app/Helpers/OptionsPro.php:357
+msgid "Pagination"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:229
+msgid "Enable"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:234
+msgid "Display per page"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:237
+msgid "If value of Limit setting is not blank (empty), this value should be smaller than Limit value."
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:244
+msgid "Pagination type"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:252, ../app/Controllers/Admin/Metabox/ShortcodeMeta.php:193
+msgid "Load more button text"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:254, ../app/Controllers/Admin/Metabox/ShortcodeMeta.php:195
+msgid "Load more"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:268
+msgid "Short description"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:282
+msgid "Primary Color"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:287
+msgid "Overlay Color"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:291
+msgid "Overlay Opacity"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:295
+msgid "Please choose the overlay opacity"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:309, ../app/Controllers/Hooks/FilterHooks.php:201
+msgid "Custom Image Size"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:311
+msgid "<span style=\"margin-top: 20px; display: block; color: #9A2A2A; font-weight: 600;\">Please note that, if you enter image size larger than the actual image iteself, the image sizes will fallback to the default thumbnail dimension (150x150 px).</span>"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:325
+msgid "'Read More' button Text"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:326
+msgid "Read more"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:327
+msgid "Please enter read more button text."
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:331
+msgid "'Add to Cart' Button Text (WooCommerce)"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:332, ../app/Controllers/Frontend/Shortcode.php:400, ../app/Controllers/Frontend/Ajax/LoadMore.php:163
+msgid "Add to cart"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:333
+msgid "Please enter add to cart button text."
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:337
+msgid "Element Margin"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:339
+msgid "Select the element margin for the layout."
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:353
+msgid "Loop"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:354
+msgid "Auto Play"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:355
+msgid "Pause on mouse hover"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:356
+msgid "Nav Button"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:358
+msgid "Auto Height"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:359
+msgid "Lazy Load"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:360
+msgid "Right to left (RTL)"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:373
+msgid "Normal"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:374
+msgid "Circle"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:385
+msgid "Default Margin"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:386
+msgid "No Margin"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:397
+msgid "Even"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:398
+msgid "Masonry"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:409
+msgid "10%"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:410
+msgid "20%"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:411
+msgid "30%"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:412
+msgid "40%"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:413
+msgid "50%"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:414
+msgid "60%"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:415
+msgid "70%"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:416
+msgid "80%"
+msgstr ""
+
+#: ../app/Helpers/OptionsPro.php:417
+msgid "90%"
+msgstr ""
+
+#: ../app/Helpers/Upgrade.php:45
+msgid "Food Menu Pro"
+msgstr ""
+
+#: ../app/Helpers/Upgrade.php:46, ../app/Controllers/Admin/Notices/Requirement.php:35
+msgid "Food Menu"
+msgstr ""
+
+#: ../app/Models/EDD_Plugin_Updater.php:229
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr ""
+
+#: ../app/Models/EDD_Plugin_Updater.php:221
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: ../app/Models/EDD_Plugin_Updater.php:503
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: ../app/Models/EDD_Plugin_Updater.php:503
+msgid "Error"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminColumns.php:124, ../app/Controllers/Admin/AdminColumns.php:124, ../app/Controllers/Admin/AdminColumns.php:168
+msgid "Image"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminColumns.php:125, ../resources/attribute.php:25, ../resources/variation.php:22, ../templates/single-food-menu-reviews.php:90
+msgid "Name"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminColumns.php:126
+msgid "Stock"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminColumns.php:127, ../resources/variation.php:26
+msgid "Price"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminColumns.php:169, ../app/Controllers/Admin/Metabox/TaxMeta.php:93, ../app/Controllers/Admin/Metabox/TaxMeta.php:170, ../app/Controllers/Admin/Metabox/TaxMeta.php:276
+msgid "Order"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminColumns.php:196, ../app/Controllers/Admin/Metabox/TaxMeta.php:174, ../app/Controllers/Admin/Metabox/TaxMeta.php:280
+msgid "Thumbnail"
+msgstr ""
+
+#: ../app/Controllers/Admin/Preview.php:53, ../app/Controllers/Frontend/Shortcode.php:123
+msgid "Show all"
+msgstr ""
+
+#: ../app/Controllers/Admin/Preview.php:130, ../app/Controllers/Frontend/Shortcode.php:200
+msgid "Search"
+msgstr ""
+
+#: ../app/Controllers/Admin/Settings.php:85
+msgid "Themes (Pro)"
+msgstr ""
+
+#: ../app/Controllers/Frontend/Shortcode.php:53
+msgid "Load More"
+msgstr ""
+
+#: ../app/Controllers/Frontend/Shortcode.php:68, ../app/Controllers/Frontend/Shortcode.php:399, ../app/Controllers/Hooks/FilterHooks.php:216
+msgid "Read More"
+msgstr ""
+
+#: ../app/Controllers/Frontend/Shortcode.php:673, ../app/Controllers/Frontend/Shortcode.php:664
+msgid "Select Options"
+msgstr ""
+
+#: ../app/Controllers/Frontend/Shortcode.php:690
+msgid "Quantity"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:53
+msgid "Grid Layouts"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:57
+msgid "List Layouts"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:61
+msgid "Grid by Category Layouts"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:65
+msgid "Slider Layouts"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:69
+msgid "Isotope Filters Layouts"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:88
+msgid "Grid By Category 6"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:94
+msgid "Grid By Category 7"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:100
+msgid "Grid Layout 1"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:106
+msgid "List Layout 5"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:112
+msgid "Grid Layout 2"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:118
+msgid "List Layout 6"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:124
+msgid "Grid Layout 3"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:130
+msgid "Grid Layout 4"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:136
+msgid "Grid Layout 5"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:142
+msgid "List Layout 7"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:148
+msgid "Carousel 1"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:154
+msgid "Carousel 2"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:160
+msgid "Carousel 3"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:166
+msgid "Carousel 4"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:172
+msgid "Isotope 1"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:178
+msgid "Isotope 2"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:184
+msgid "Isotope 3"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:190
+msgid "Isotope 4"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:200
+msgid "Full Size"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:207
+msgid "Random"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:220
+msgid "Add to cart (WooCommerce)"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:221
+msgid "Quantity (WooCommerce)"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:229
+msgid "Ajax Numbered Pagination"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:230
+msgid "Ajax Load More Button"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:231
+msgid "Ajax Load More on Scroll"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:289
+msgid "Reviews (%d)"
+msgstr ""
+
+#: ../app/Controllers/Admin/Ajax/Licence.php:146
+msgid "Security Error !!"
+msgstr ""
+
+#: ../app/Controllers/Admin/Ajax/Licence.php:79, ../app/Controllers/Admin/Ajax/Licence.php:208
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: ../app/Controllers/Admin/Ajax/Licence.php:82, ../app/Controllers/Admin/Ajax/Licence.php:211
+msgid "Invalid license."
+msgstr ""
+
+#: ../app/Controllers/Admin/Ajax/Licence.php:86, ../app/Controllers/Admin/Ajax/Licence.php:215
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: ../app/Controllers/Admin/Ajax/Licence.php:89, ../app/Controllers/Admin/Ajax/Licence.php:219
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: ../app/Controllers/Admin/Ajax/Licence.php:92, ../app/Controllers/Admin/Ajax/Licence.php:224
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: ../app/Controllers/Admin/Ajax/Licence.php:95, ../app/Controllers/Admin/Ajax/Licence.php:64, ../app/Controllers/Admin/Ajax/Licence.php:227, ../app/Controllers/Admin/Ajax/Licence.php:192
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: ../app/Controllers/Admin/Ajax/Licence.php:246
+msgid "Session Error !!"
+msgstr ""
+
+#: ../app/Controllers/Admin/Ajax/Licence.php:200
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: ../app/Controllers/Admin/Ajax/Licence.php:239
+msgid "Successfully activated"
+msgstr ""
+
+#: ../app/Controllers/Admin/Metabox/PostMeta.php:251
+msgid "Food Data"
+msgstr ""
+
+#: ../app/Controllers/Admin/Metabox/PostMeta.php:260
+msgid "Excerpt"
+msgstr ""
+
+#: ../app/Controllers/Admin/Metabox/PostMeta.php:268
+msgid "Gallery"
+msgstr ""
+
+#: ../app/Controllers/Admin/Metabox/PostMeta.php:289
+msgid "General"
+msgstr ""
+
+#: ../app/Controllers/Admin/Metabox/PostMeta.php:298
+msgid "Advanced"
+msgstr ""
+
+#: ../app/Controllers/Admin/Metabox/PostMeta.php:340
+msgid "Save Variations"
+msgstr ""
+
+#: ../app/Controllers/Admin/Metabox/PostMeta.php:582, ../app/Controllers/Admin/Metabox/PostMeta.php:607
+msgid "Delete image"
+msgstr ""
+
+#: ../app/Controllers/Admin/Metabox/PostMeta.php:585, ../app/Controllers/Admin/Metabox/PostMeta.php:608
+msgid "Delete"
+msgstr ""
+
+#: ../app/Controllers/Admin/Metabox/PostMeta.php:605
+msgid "Add Images to Gallery"
+msgstr ""
+
+#: ../app/Controllers/Admin/Metabox/PostMeta.php:606
+msgid "Add to gallery"
+msgstr ""
+
+#: ../app/Controllers/Admin/Metabox/PostMeta.php:610
+msgid "Add gallery images"
+msgstr ""
+
+#: ../app/Controllers/Admin/Metabox/ShortcodeMeta.php:177
+msgid "Default preview Image"
+msgstr ""
+
+#: ../app/Controllers/Admin/Metabox/ShortcodeMeta.php:178
+msgid "Please choose the default preview image. <br>This image will show if there is no featured image available."
+msgstr ""
+
+#: ../app/Controllers/Admin/Metabox/TaxMeta.php:183, ../app/Controllers/Admin/Metabox/TaxMeta.php:289
+msgid "Upload/Add image"
+msgstr ""
+
+#: ../app/Controllers/Admin/Metabox/TaxMeta.php:186, ../app/Controllers/Admin/Metabox/TaxMeta.php:295
+msgid "Remove image"
+msgstr ""
+
+#: ../app/Controllers/Admin/Metabox/TaxMeta.php:209, ../app/Controllers/Admin/Metabox/TaxMeta.php:317
+msgid "Choose an image"
+msgstr ""
+
+#: ../app/Controllers/Admin/Metabox/TaxMeta.php:211, ../app/Controllers/Admin/Metabox/TaxMeta.php:319
+msgid "Use image"
+msgstr ""
+
+#: ../app/Controllers/Frontend/Ajax/AddToCart.php:61
+msgid "WooCommerce not installed"
+msgstr ""
+
+#: ../app/Controllers/Frontend/Ajax/LoadMore.php:257
+msgid "Security error"
+msgstr ""
+
+#: ../app/Controllers/Frontend/Ajax/LoadMore.php:254, ../app/Controllers/Frontend/Ajax/LoadMore.php:249
+msgid "No More Post to load"
+msgstr ""
+
+#: ../resources/attribute.php:16, ../resources/variation.php:16
+msgid "Remove"
+msgstr ""
+
+#: ../resources/attribute.php:17, ../resources/variation.php:17
+msgid "Click to toggle"
+msgstr ""
+
+#: ../resources/attribute.php:30
+msgid "Value(s)"
+msgstr ""
+
+#: ../resources/attribute.php:30
+msgid "Enter some text, or some attributes by \"%s\" separating values."
+msgstr ""
+
+#: ../resources/attribute.php:35
+msgid "Visible on the product page"
+msgstr ""
+
+#: ../resources/attribute.php:41
+msgid "Used for variations"
+msgstr ""
+
+#: ../templates/single-food-menu-reviews.php:27
+msgid "%1$s review for %2$s%3$s%4$s"
+msgid_plural "%1$s reviews for %2$s%3$s%4$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../templates/single-food-menu-reviews.php:80
+msgid "Add a review"
+msgstr ""
+
+#: ../templates/single-food-menu-reviews.php:84
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../templates/single-food-menu-reviews.php:87
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../templates/single-food-menu-reviews.php:95
+msgid "Email"
+msgstr ""
+
+#: ../templates/single-food-menu-reviews.php:101
+msgid "Submit"
+msgstr ""
+
+#: ../templates/single-food-menu-reviews.php:108
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: ../templates/single-food-menu-reviews.php:117
+msgid "Your Rating"
+msgstr ""
+
+#: ../templates/single-food-menu-reviews.php:121
+msgid "Rate&hellip;"
+msgstr ""
+
+#: ../templates/single-food-menu-reviews.php:122
+msgid "Perfect"
+msgstr ""
+
+#: ../templates/single-food-menu-reviews.php:123
+msgid "Good"
+msgstr ""
+
+#: ../templates/single-food-menu-reviews.php:124
+msgid "Average"
+msgstr ""
+
+#: ../templates/single-food-menu-reviews.php:125
+msgid "Not that bad"
+msgstr ""
+
+#: ../templates/single-food-menu-reviews.php:126
+msgid "Very Poor"
+msgstr ""
+
+#: ../templates/single-food-menu-reviews.php:129
+msgid "Your Review"
+msgstr ""
+
+#: ../templates/layouts/grid-by-cat1.php:110, ../templates/layouts/grid-by-cat2.php:103
+msgid "No item found."
+msgstr ""
+
+#: ../templates/single/review-meta.php:16
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: ../templates/single/review-rating.php:18
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: ../templates/single/review-rating.php:21
+msgid "out of 5"
+msgstr ""

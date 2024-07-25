@@ -1,0 +1,29 @@
+@media (max-width: 991px) {
+    
+    /* Keep mobile dropdown always open */
+    .navbar .dropdown-menu:not(.navbar .dropdown-menu.dropdown-search) {
+        display: block;
+    }
+
+    /* Override Bootstrap invisible class on resize */
+    .navbar .nav-item .dropdown-menu.invisible {
+        visibility: visible !important;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        transition: .7s;
+    }
+    
+    /* Open dropdown-menu on hover parent menu item */ 
+    .navbar .nav-item:hover .dropdown-menu {
+        visibility: visible !important;
+        opacity: 1;
+    }
+
+}

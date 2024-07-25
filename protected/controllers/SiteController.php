@@ -31,9 +31,10 @@ class SiteController extends Controller
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-		$this->layout = false;
-		$this->renderPartial('index');
-		//$this->render('index');
+		//$this->layout = false;
+		$this->renderFile('site/index.html',[],false);
+		//Yii::app()->end();
+		//$this->render('iindex');
 	}
 
 	/**

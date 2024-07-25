@@ -331,6 +331,8 @@ class Environment
 		}
 
 		// Return
+		//echo "<pre>";
+		//print_r($config);   die();
 		return $config;
 	}
 
