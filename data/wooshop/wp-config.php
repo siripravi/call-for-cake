@@ -21,14 +21,14 @@ error_reporting(0);
 @ini_set('display_errors', 0);
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wpyii1' );
-
+//define( 'DB_NAME', 'cakeonc1_wpyii1' );
+define( 'DB_NAME', 'yiiwpcocdb' );
 /** Database username */
+//define( 'DB_USER', 'cakeonc1_baker' );
 define( 'DB_USER', 'root' );
-
 /** Database password */
+//define( 'DB_PASSWORD', 'SiriPravi_06!' );
 define( 'DB_PASSWORD', '' );
-
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
 
