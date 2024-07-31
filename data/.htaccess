@@ -3,9 +3,9 @@ IndexIgnore */*
 RewriteEngine on
 
 # Rewrite requests to home.html to index.php
-RewriteCond %{REQUEST_FILENAME} ^home\.html$
-RewriteRule ^$ index.php [L]
-RewriteRule ^$ home.html [L]
+##RewriteCond %{REQUEST_FILENAME} ^home\.html$
+##RewriteRule ^$ index.php [L]
+##RewriteRule ^$ home.html [L]
 # if a directory or a file exists, use it directly
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

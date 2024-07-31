@@ -10,7 +10,8 @@
  */
 
 return array(
-
+ 'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
+        "theme" => "panpie",
 	// Set yiiPath (relative to Environment.php)
 	//'yiiPath' => dirname(__FILE__) . '/../../../yii/framework/yii.php',
 	//'yiicPath' => dirname(__FILE__) . '/../../../yii/framework/yiic.php',

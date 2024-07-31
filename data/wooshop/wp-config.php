@@ -17,8 +17,10 @@
  *
  * @package WordPress
  */
-error_reporting(0);
-@ini_set('display_errors', 0);
+//error_reporting(0);
+//@ini_set('display_errors', 0);
+
+define('WP_DEBUG_LOG', true);
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 //define( 'DB_NAME', 'cakeonc1_wpyii1' );

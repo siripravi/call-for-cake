@@ -5,3 +5,26 @@
 // Add your own code here!
 // Because this file is compiled after Bootstrap, you're also able to use Bootstrap mixins for better code.
 // Some examples can be found here: https://bootscore.me/documentation/bootstrap-css-sass
+@import "variable";
+@import "mixins";
+
+@import "base";
+@import "header";
+@import "hero";
+@import "home-page";
+@import "product";
+@import "footer";
+@import "breadcrumb";
+@import "about";
+@import "shop";
+@import "shop-details";
+@import "shopping-cart";
+@import "checkout";
+@import "wisslist";
+@import "class";
+@import "blog";
+@import "blog-sidebar";
+@import "blog-details";
+@import "contact";
+@import "responsive"; 
+@import "custom";

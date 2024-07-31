@@ -3,7 +3,7 @@
 class SiteController extends Controller
 {
 	public $layout = "//layouts/main";
-	
+
 	/**
 	 * Declares class-based actions.
 	 */
@@ -11,14 +11,14 @@ class SiteController extends Controller
 	{
 		return array(
 			// captcha action renders the CAPTCHA image displayed on the contact page
-			'captcha'=>array(
-				'class'=>'CCaptchaAction',
-				'backColor'=>0xFFFFFF,
+			'captcha' => array(
+				'class' => 'CCaptchaAction',
+				'backColor' => 0xFFFFFF,
 			),
 			// page action renders "static" pages stored under 'protected/views/site/pages'
 			// They can be accessed via: index.php?r=site/page&view=FileName
-			'page'=>array(
-				'class'=>'CViewAction',
+			'page' => array(
+				'class' => 'CViewAction',
 			),
 		);
 	}
@@ -29,12 +29,14 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
+
+		//echo Yii::app()->theme->baseUrl ; die;
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-		//$this->layout = false;
-		$this->renderFile('site/index.html',[],false);
+		//	$this->layout = false;
+		//$this->renderFile('site/index.html',[],false);
 		//Yii::app()->end();
-		//$this->render('iindex');
+		$this->render('index');
 	}
 
 	/**
@@ -42,9 +44,8 @@ class SiteController extends Controller
 	 */
 	public function actionError()
 	{
-		if($error=Yii::app()->errorHandler->error)
-		{
-			if(Yii::app()->request->isAjaxRequest)
+		if ($error = Yii::app()->errorHandler->error) {
+			if (Yii::app()->request->isAjaxRequest)
 				echo $error['message'];
 			else
 				$this->render('error', $error);
@@ -56,19 +57,17 @@ class SiteController extends Controller
 	 */
 	public function actionContact()
 	{
-		$model=new ContactForm;
-		if(isset($_POST['ContactForm']))
-		{
-			$model->attributes=$_POST['ContactForm'];
-			if($model->validate())
-			{
-				$headers="From: {$model->email}\r\nReply-To: {$model->email}";
-				mail(Yii::app()->params['adminEmail'],$model->subject,$model->body,$headers);
-				Yii::app()->user->setFlash('contact','Thank you for contacting us. We will respond to you as soon as possible.');
+		$model = new ContactForm;
+		if (isset($_POST['ContactForm'])) {
+			$model->attributes = $_POST['ContactForm'];
+			if ($model->validate()) {
+				$headers = "From: {$model->email}\r\nReply-To: {$model->email}";
+				mail(Yii::app()->params['adminEmail'], $model->subject, $model->body, $headers);
+				Yii::app()->user->setFlash('contact', 'Thank you for contacting us. We will respond to you as soon as possible.');
 				$this->refresh();
 			}
 		}
-		$this->render('contact',array('model'=>$model));
+		$this->render('contact', array('model' => $model));
 	}
 
 	/**
@@ -76,25 +75,23 @@ class SiteController extends Controller
 	 */
 	public function actionLogin()
 	{
-		$model=new LoginForm;
+		$model = new LoginForm;
 
 		// if it is ajax validation request
-		if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
-		{
+		if (isset($_POST['ajax']) && $_POST['ajax'] === 'login-form') {
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
 		}
 
 		// collect user input data
-		if(isset($_POST['LoginForm']))
-		{
-			$model->attributes=$_POST['LoginForm'];
+		if (isset($_POST['LoginForm'])) {
+			$model->attributes = $_POST['LoginForm'];
 			// validate user input and redirect to the previous page if valid
-			if($model->validate() && $model->login())
+			if ($model->validate() && $model->login())
 				$this->redirect(Yii::app()->user->returnUrl);
 		}
 		// display the login form
-		$this->render('login',array('model'=>$model));
+		$this->render('login', array('model' => $model));
 	}
 
 	/**

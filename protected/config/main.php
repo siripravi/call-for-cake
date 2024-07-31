@@ -6,7 +6,7 @@
  */
 
 return array(
-
+	
 	// Set yiiPath (relative to Environment.php)
 	'yiiPath' => dirname(__FILE__) . '/../../yii/framework/yii.php',
 	'yiicPath' => dirname(__FILE__) . '/../../yii/framework/yiic.php',
@@ -25,8 +25,8 @@ return array(
 	// This is the main Web application configuration. Any writable
 	// CWebApplication properties can be configured here.
 	'configWeb' => array(
-
-		'basePath' => dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
+         "theme" => "panpie",
+		'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
 		'name' => 'My Web Application',
 
 		// Preloading 'log' component
@@ -38,25 +38,25 @@ return array(
 			'application.components.*',
 			'ext.giix-components.*', // giix components
 		),
-		
+
 		// Application components
 		'components' => array(
-		
+
 			'user' => array(
 				// enable cookie-based authentication
 				'allowAutoLogin' => true,
 			),
-			
+
 			// uncomment the following to enable URLs in path-format
-			'urlManager'=>array(
-				'urlFormat'=>'path',
+			'urlManager' => array(
+				'urlFormat' => 'path',
 				'showScriptName' => false,
-				'rules'=>array(
+				'rules' => array(
 					//'/' => 'home.html',
-					'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-					'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-					'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
-					'/contact'=>'site/contact',
+					'<controller:\w+>/<id:\d+>' => '<controller>/view',
+					'<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
+					'<controller:\w+>/<action:\w+>' => '<controller>/<action>',
+					'/contact' => 'site/contact',
 					'/wooshop/<text:\w+>' => '<text>'
 				),
 			),
@@ -71,42 +71,42 @@ return array(
 			),
 
 			// Error handler
-			'errorHandler'=>array(
+			'errorHandler' => array(
 				// use 'site/error' action to display errors
-				'errorAction'=>'site/error',
+				'errorAction' => 'site/error',
 			),
 
 		),
 
 		// application-level parameters that can be accessed
 		// using Yii::app()->params['paramName']
-		'params'=>array(
+		'params' => array(
 			// this is used in contact page
-			'adminEmail'=>'webmaster@example.com',
+			'adminEmail' => 'webmaster@example.com',
 		),
 
 	),
 
 	// This is the Console application configuration. Any writable
 	// CConsoleApplication properties can be configured here.
-    // Leave array empty if not used.
-    // Use value 'inherit' to copy from generated configWeb.
+	// Leave array empty if not used.
+	// Use value 'inherit' to copy from generated configWeb.
 	'configConsole' => array(
 
-		'basePath' => dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
+		'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
 		'name' => 'My Console Application',
 
 		// Preloading 'log' component
 		'preload' => array('log'),
 
 		// Autoloading model and component classes
-		'import'=>'inherit',
+		'import' => 'inherit',
 
 		// Application componentshome
-		'components'=>array(
+		'components' => array(
 
 			// Database
-			'db'=>'inherit',
+			'db' => 'inherit',
 
 			// Application Log
 			'log' => array(
