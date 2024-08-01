@@ -22,19 +22,22 @@ defined('ABSPATH') || exit;
 	<?php 
     // Custom filter to check if header elements should be displayed. To disable, use: add_filter('picostrap_enable_header_elements', '__return_false');
     if (apply_filters('picostrap_enable_header_elements', true)):
-
+      
         //check if LC option is set to "Handle Header"    
         if (!function_exists('lc_custom_header')) {
             //use the built-in theme header elements 
             get_template_part( 'partials/header', 'optional-topbar' ); 
+
+          //  get_template_part( 'partials/site-navbar', 'site-navbar' );
             get_template_part( 'partials/header', 'navbar' );
+           
         } else {
             //use the LiveCanvas Custom Header
             lc_custom_header(); 
         }
 
     endif;
-    
+   
 	?>
 
 	<main id='theme-main'>
