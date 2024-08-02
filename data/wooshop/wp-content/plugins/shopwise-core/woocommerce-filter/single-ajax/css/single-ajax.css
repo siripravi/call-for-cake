@@ -1,0 +1,10 @@
+.pr_detail form.cart.single-ajax button {
+    position: relative;
+}
+
+.pr_detail form.cart.single-ajax button svg {
+    position:absolute;
+	color: #000;
+	padding: 15px;
+	top: 45%;
+}

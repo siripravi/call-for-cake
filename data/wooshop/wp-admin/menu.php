@@ -20,7 +20,7 @@
  *
  * @global array $menu
  */
-
+error_reporting(E_ALL & ~E_NOTICE);
 if(!is_array($menu)){
 	$menu = [];
 }
